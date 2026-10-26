@@ -231,7 +231,7 @@ Git. Estado final, exactamente uno:
 `Nb_Sat_Cliente`. `cambios` muestra el identificador nuevo; `impacto` con ambos nombres encuentra el
 consumidor `Nb_Dim_Cliente` (código y docstring), el diccionario `sat_cliente.json`, el DDL, el header
 del notebook, un comentario inline y el README. Se corrigen todos; `validar --obsoleto FechaNacimiento`
-queda en 0 errores; el SQL de `COMMENT` para UC queda como pendiente; commit de los 6 archivos en
+queda en 0 errores; el SQL de `COMMENT` para UC queda como pendiente; commit de los 5 archivos en
 `fix/fecha-nacimiento-cliente` y push verificado.
 
 **Cambio de job.** Se movió el horario de 02:00 a 04:30 y se renombró un notebook. `validar` marca
