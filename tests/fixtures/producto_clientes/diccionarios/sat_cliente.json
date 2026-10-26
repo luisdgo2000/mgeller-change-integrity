@@ -1,0 +1,11 @@
+{
+  "tabla": "sat_cliente",
+  "descripcion": "Atributos descriptivos del cliente",
+  "columnas": [
+    {"nombre": "Hk_Cliente", "tipo": "BINARY", "descripcion": "Hash key del cliente"},
+    {"nombre": "NombreCliente", "tipo": "STRING", "descripcion": "Nombre normalizado del cliente"},
+    {"nombre": "FechaNacimiento", "tipo": "DATE", "descripcion": "Fecha de nacimiento del cliente"},
+    {"nombre": "CodigoSegmento", "tipo": "STRING", "descripcion": "Código del segmento comercial"},
+    {"nombre": "FechaRegistro", "tipo": "TIMESTAMP", "descripcion": "Fecha de registro en Data Vault"}
+  ]
+}

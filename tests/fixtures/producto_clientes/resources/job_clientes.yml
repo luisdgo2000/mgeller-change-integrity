@@ -1,0 +1,21 @@
+resources:
+  jobs:
+    job_clientes:
+      name: "Clientes · carga diaria"
+      schedule:
+        quartz_cron_expression: "0 0 2 * * ?"
+        timezone_id: America/Costa_Rica
+      tasks:
+        - task_key: sat_cliente
+          notebook_task:
+            notebook_path: ../notebooks/satellites/Nb_Sat_Cliente.py
+            base_parameters:
+              catalogo_dv: ${var.catalogo_dv}
+        - task_key: dim_cliente
+          depends_on:
+            - task_key: sat_cliente
+          notebook_task:
+            notebook_path: ../notebooks/dwh/Nb_Dim_Cliente.py
+            base_parameters:
+              catalogo_dv: ${var.catalogo_dv}
+              catalogo_dwh: ${var.catalogo_dwh}

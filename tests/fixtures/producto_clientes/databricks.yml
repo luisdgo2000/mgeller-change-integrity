@@ -1,0 +1,24 @@
+# Bundle de ejemplo del producto Clientes (fixture de pruebas de MGeller).
+bundle:
+  name: producto_clientes
+
+include:
+  - resources/*.yml
+
+variables:
+  catalogo_dv:
+    description: Catálogo Data Vault del ambiente
+    default: data_vault_dev
+  catalogo_dwh:
+    description: Catálogo DWH del ambiente
+    default: dwh_dev
+
+targets:
+  dev:
+    mode: development
+    default: true
+  prod:
+    mode: production
+    variables:
+      catalogo_dv: data_vault
+      catalogo_dwh: dwh
