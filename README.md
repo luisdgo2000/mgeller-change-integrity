@@ -922,7 +922,7 @@ No se pueden ejecutar desde fuera del workspace:
 ## 18. Versionado, autoría y licencia
 
 - **Versión actual:** 1.0.0 — [SemVer](https://semver.org/lang/es/). Historial en [CHANGELOG.md](CHANGELOG.md).
-- **Autoría:** Luis Diego Rodríguez Oviedo (equipo Dominios).
+- **Autoría:** Luis Diego Rodríguez Oviedo.
 - **Licencia:** todos los derechos reservados; uso interno y propietario. Ver [LICENSE](LICENSE).
 
 **Documentación relacionada**

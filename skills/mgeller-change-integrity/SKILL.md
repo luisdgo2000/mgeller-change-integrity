@@ -5,7 +5,7 @@ license: Uso interno. Ver LICENSE del repositorio.
 compatibility: Genie Code en modo Agent (Azure Databricks) con cómputo adjunto para ejecutar scripts/mgeller.py (Python 3.9+, solo biblioteca estándar; PyYAML opcional). Git y Databricks CLI se usan solo si están disponibles.
 metadata:
   version: "1.0.0"
-  owner: "Luis Diego Rodriguez Oviedo (equipo Dominios)"
+  owner: "Luis Diego Rodriguez Oviedo"
   last_updated: "2026-10-14"
   status: "draft"
   classification: "internal"
