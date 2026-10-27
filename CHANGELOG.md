@@ -4,6 +4,12 @@ Cambios notables de mgeller-change-integrity. Formato basado en
 [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y versionado
 [SemVer](https://semver.org/lang/es/).
 
+## [Sin publicar]
+
+### Cambiado
+- Se quita el nombre del equipo de la autoría (README y metadata de `SKILL.md`) al hacer público
+  el repositorio.
+
 ## [1.0.0] — 2026-10-14
 
 ### Añadido
